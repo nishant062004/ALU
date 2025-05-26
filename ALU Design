@@ -7,11 +7,11 @@ In this project, a simple ALU is designed using Verilog HDL to execute five basi
 
 ⚙️ ALU Operations Supported
 Operation	     Opcode (sel)	     Description
-Addition	     3'b000	           Adds two 4-bit binary numbers
-Subtraction	   3'b001	           Subtracts second input from the first
-Bitwise AND  	 3'b010    	       Performs logical AND on each bit
-Bitwise OR	   3'b011	           Performs logical OR on each bit
-Bitwise NOT	   3'b100	           Inverts each bit of the first input
+Addition	        3'b000	           Adds two 4-bit binary numbers
+Subtraction	     3'b001	           Subtracts second input from the first
+Bitwise AND  	  3'b010    	     Performs logical AND on each bit
+Bitwise OR	     3'b011	           Performs logical OR on each bit
+Bitwise NOT	     3'b100	           Inverts each bit of the first input
 
 🧮 ALU Design Details
 Inputs: Two 4-bit operands (A, B) and a 3-bit selector (sel)

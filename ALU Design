@@ -21,3 +21,8 @@ Behavior: Based on the selector input, a corresponding operation is performed
 🧪 Testbench
 The ALU was verified using a Verilog testbench, which applied various input combinations and selector values to validate each operation. 
 The simulation was run using tools like Vivado.
+
+📌 Conclusion
+This project demonstrates the design and testing of a basic ALU in Verilog. 
+It serves as a foundational block for more complex processor design and helps in understanding the internal working of arithmetic 
+and logic operations in hardware.

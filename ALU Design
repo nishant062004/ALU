@@ -1,0 +1,23 @@
+🧠 Project Title: Basic ALU Design in Verilog
+📘 Overview
+An Arithmetic Logic Unit (ALU) is a fundamental building block of digital systems and processors. 
+It performs arithmetic and logic operations on binary data. 
+In this project, a simple ALU is designed using Verilog HDL to execute five basic operations: 
+   Addition, Subtraction, Bitwise AND, Bitwise OR, and Bitwise NOT.
+
+⚙️ ALU Operations Supported
+Operation	     Opcode (sel)	     Description
+Addition	     3'b000	           Adds two 4-bit binary numbers
+Subtraction	   3'b001	           Subtracts second input from the first
+Bitwise AND  	 3'b010    	       Performs logical AND on each bit
+Bitwise OR	   3'b011	           Performs logical OR on each bit
+Bitwise NOT	   3'b100	           Inverts each bit of the first input
+
+🧮 ALU Design Details
+Inputs: Two 4-bit operands (A, B) and a 3-bit selector (sel)
+Output: 4-bit result (Y), with optional carry and zero flag
+Behavior: Based on the selector input, a corresponding operation is performed
+
+🧪 Testbench
+The ALU was verified using a Verilog testbench, which applied various input combinations and selector values to validate each operation. 
+The simulation was run using tools like Vivado.
